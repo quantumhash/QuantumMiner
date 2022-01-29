@@ -4,12 +4,12 @@ Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`
 
 ## Features
 * Support Windows. (Linux version will be available soon)
-* Support DNS-Over-TLS
-* Support SOCKS5 proxy
-* Support SSL/TLS connection
-* Support backup pool configuration
-* Support watchdog
-* Dev Fee of all algorithms is 0.5%
+* Support DNS-Over-TLS.
+* Support SOCKS5 proxy.
+* Support SSL/TLS connection.
+* Support backup pool configuration.
+* Support watchdog.
+* Dev Fee of all algorithms is 0.5%.
 
 ## Usage
 
