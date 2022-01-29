@@ -1,4 +1,4 @@
-# QuantumMiner-v1.0
+# QuantumMiner
 
 Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`
 
