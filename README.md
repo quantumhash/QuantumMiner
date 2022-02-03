@@ -1,15 +1,15 @@
-# QuantumMiner
+# QuantumMiner-v1.0
 
 Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`
 
 ## Features
-* Support Windows. (Linux version will be available soon)
-* Support DNS-Over-TLS.
-* Support SOCKS5 proxy.
-* Support SSL/TLS connection.
-* Support backup pool configuration.
-* Support watchdog.
-* Dev Fee of all algorithms is 0.5%.
+* Support Windows and Ubuntu
+* Support DNS-Over-TLS
+* Support SOCKS5 proxy
+* Support SSL/TLS connection
+* Support backup pool configuration
+* Support watchdog
+* Dev Fee of all algorithms is 0.5%
 
 ## Usage
 
@@ -61,6 +61,9 @@ Example usage: QuantumMiner --algo ethash --pool eu1.ethermine.org:5555 --ssl --
     --no-validation  Disable CPU validation before submitting share to pool
 	
 ## Change log
+
+#### v1.1
+- Added Ubuntu build
 
 #### v1.0
 - Initial release
