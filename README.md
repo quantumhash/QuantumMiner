@@ -56,11 +56,59 @@ Example usage: QuantumMiner --algo ethash --pool eu1.ethermine.org:5555 --ssl --
 
     --proxy          SOCKS5 proxy, format: e.g. --proxy 127.0.0.1:10808
 
+    --api            API server config, format: e.g. --api 127.0.0.1:22333
+                     Default to 0.0.0.0:22333
+
     --no-hwstat      Disable printing hardware stat information
 
     --no-validation  Disable CPU validation before submitting share to pool
 	
+## API Reference
+
+### Request
+
+GET http://addr:port/api/status
+
+### Response
+
+``` json
+{
+    "connection":{
+        "connected":true,
+        "is_ssl":"no",
+        "server":"eth-backup.f2pool.com:6688"
+    },
+    "miner":{
+        "devices":[
+            {
+                "accepted":0,
+                "hashrate":"0.00 h",
+                "invalid":0,
+                "name":"NVIDIA GeForce RTX 3060 Ti",
+                "rejected":0
+            },
+            {
+                "accepted":0,
+                "hashrate":"0.00 h",
+                "invalid":0,
+                "name":"AMD Radeon RX 580 2048SP",
+                "rejected":0
+            }
+        ],
+        "total_accepted":0,
+        "total_hashrate":"0.00 h",
+        "total_invalid":0,
+        "total_rejected":0
+    },
+    "version":"1.2"
+}
+```
+
 ## Change log
+
+#### v1.2
+- Added API server
+- Minor bug fixes
 
 #### v1.1
 - Added Ubuntu build
