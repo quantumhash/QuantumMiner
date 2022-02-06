@@ -11,6 +11,9 @@ Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`
 * Support watchdog
 * Dev Fee of all algorithms is 0.5%
 
+## Contact Us
+EMail: quantumhash1024@gmail.com
+
 ## Usage
 
 Example usage: QuantumMiner --algo ethash --pool eu1.ethermine.org:5555 --ssl --wallet 0xabcd1234abcd1234abcd1234abcd1234abcd1234
