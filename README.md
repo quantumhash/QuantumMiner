@@ -20,7 +20,7 @@ Example usage: QuantumMiner --algo ethash --pool eu1.ethermine.org:5555 --ssl --
 
     --help           Show help text and exit
 
-    --algo           One of ethash, etchash, kawpow, firopow
+    --algo           One of ethash, etchash, kawpow, firopow, blake3
 
     --pool           Primary stratum pool URL
                      Format: hostname:port, e.g. eu1.ethermine.org:4444
@@ -108,6 +108,9 @@ GET http://addr:port/api/status
 ```
 
 ## Change log
+
+#### v1.3
+- Added `blake3(ALPH)` algorithm, mining pools including herominers and woolypooly are tested
 
 #### v1.2
 - Added API server
