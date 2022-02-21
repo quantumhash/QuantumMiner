@@ -1,6 +1,6 @@
 # QuantumMiner
 
-Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`
+Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`, `ALPH`
 
 ## Features
 * Support Windows and Ubuntu
