@@ -9,7 +9,7 @@ Nvidia and AMD GPU miner for `ETH`, `ETC`, `RVN`, `FIRO`, `ALPH`
 * Support SSL/TLS connection
 * Support backup pool configuration
 * Support watchdog
-* Dev Fee of all algorithms is 0.5%
+* Dev Fee of all algorithms is `0.2%`
 
 ## Contact Us
 EMail: quantumhash1024@gmail.com
@@ -66,6 +66,8 @@ Example usage: QuantumMiner --algo ethash --pool eu1.ethermine.org:5555 --ssl --
 
     --no-validation  Disable CPU validation before submitting share to pool
 	
+    --safe-dag       For NVIDIA cards, lower the memory clock to avoid DAG corruption when OC is very high, Requires root/admin permissions.
+	
 ## API Reference
 
 ### Request
@@ -108,6 +110,10 @@ GET http://addr:port/api/status
 ```
 
 ## Change log
+
+#### v1.4
+- Added command `--safe-dag` to avoid DAG generation error when memory OC is very high
+- Reduced dev fee of all algorithms down to 0.2%
 
 #### v1.3
 - Added `blake3(ALPH)` algorithm, mining pools including herominers and woolypooly are tested
